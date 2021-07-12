@@ -51,7 +51,22 @@ $(document).ready(function(){
 
   // fix height
   $('.belleza__item').matchHeight();
+
+  menuCtrl();
 })
+
+
+var menuCtrl = function () {
+  var wWidth = $(window).outerWidth();
+  var $menuCtrl = $('.js-menuCtrl');
+  if (wWidth < 769) {
+    $menuCtrl.click(function () {
+      console.log(1);
+      $(this).find('.js-subMenu').slideToggle();
+      $(this).find('.js-subMenuIcon').toggleClass('active');
+    });
+  }
+}
 
 function scrollAddClass(){
   $('.js-scroll-item').each(function() {

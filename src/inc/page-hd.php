@@ -16,12 +16,62 @@
             <img src="/assets/images/icon-login.svg">
             <span>MY PAGE</span>
           </a></li>
-          <li><a href="/">ホーム</a></li>
-          <li><a href="/products/">商品一覧</a></li>
-          <li><a href="/voice/">お客様の声</a></li>
-          <li><a href="/column/">お役立ちコンテンツ一覧</a></li>
-          <li><a href="/faq/">よくあるご質問</a></li>
-          <li><a href="/contact/">お問い合わせ</a></li>
+          <li class="parent"><a href="/">ホーム</a></li>
+          <li class="sub__menuWrap js-menuCtrl parent">
+            <a href="javascript:void(0)">商品一覧</a>
+            <div class="sub__menu js-subMenu">
+              <ul>
+                <li><a href="">メルライン</a></li>
+                <li><a href="">【NEW】メルライン美白導入化粧水</a></li>
+                <li><a href="">【NEW】メルラインシートマスク</a></li>
+                <li><a href="">セシュレル</a></li>
+                <li><a href="">フレキュレル</a></li>
+                <li><a href="">メンズクレアラン</a></li>
+                <li><a href="">セシュレルサプリ</a></li>
+                <li><a href="">クレアラン ビューティークレイ洗顔</a></li>
+                <li><a href="">クレアラン ノンオイルクレンジング</a></li>
+                <li><a href="">クレアラン CCクリーム＋</a></li>
+              </ul>
+            </div>
+            <span class="child_menu_button js-subMenuIcon"></span>
+          </li>
+          <li class="sub__menuWrap js-menuCtrl parent">
+            <a href="javascript:void(0)">お客様の声</a>
+            <div class="sub__menu js-subMenu">
+              <ul>
+                <li><a href="">メルラインをご使用いただいたお客様の声</a></li>
+                <li><a href="">セシュレルをご使用いただいたお客様の声</a></li>
+                <li><a href="">フレキュレルをご使用いただいたお客様の声</a></li>
+              </ul>
+            </div>
+            <span class="child_menu_button js-subMenuIcon"></span>
+          </li>
+          <li class="sub__menuWrap js-menuCtrl parent">
+            <a href="javascript:void(0)">お役立ちコンテンツ一覧</a>
+            <div class="sub__menu js-subMenu">
+              <ul>
+                <li><a href="">ニキビ</a></li>
+                <li><a href="">顎ニキビ</a></li>
+                <li><a href="">スキンケア</a></li>
+                <li><a href="">美白・美肌</a></li>
+                <li><a href="">肌トラブル</a></li>
+                <li><a href="">シミ・そばかす</a></li>
+                <li><a href="">メイク術</a></li>
+              </ul>
+            </div>
+            <span class="child_menu_button js-subMenuIcon"></span>
+          </li>
+          <li class="sub__menuWrap js-menuCtrl parent">
+            <a href="javascript:void(0)">よくあるご質問</a>
+            <div class="sub__menu js-subMenu">
+              <ul>
+                <li><a href="">お買い物ガイド</a></li>
+                <li><a href="">商品に関するよくあるご質問</a></li>
+              </ul>
+            </div>
+            <span class="child_menu_button js-subMenuIcon"></span>
+          </li>
+          <li class="parent"><a href="/contact/">お問い合わせ</a></li>
         </ul>
       </div>
       <div class="col-lg-3 header__right">

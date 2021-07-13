@@ -352,7 +352,7 @@ body{
     transform: scaleY(0);
     transition: all 0.3s ease-out;
   }
-  @include media-sp {
+  @include media-si {
     display: none;
     padding-top: 0;
   }
@@ -363,12 +363,12 @@ body{
     &:before {
     	display: none !important;
     }
-    @include media-sp {
+    @include media-si {
       margin-top: 0 !important;
     }
     li{
       // margin-bottom: 25px;
-      @include media-sp {
+      @include media-si {
         margin-bottom: 0 !important;
         padding: 0 12px !important;
         &:last-child {
@@ -388,7 +388,7 @@ body{
         font-size: .8125rem !important;
         line-height: 1.6;
         transition: all .3s;
-        @include media-sp {
+        @include media-si {
         	padding: 10px 0;
         }
         &:hover {
@@ -415,7 +415,7 @@ body{
   @include media-pc {
     display: none;
   }
-  @include media-sp {
+  @include media-si {
     display: block;
     position: absolute;
     text-align: center;

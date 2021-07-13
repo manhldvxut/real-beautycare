@@ -61,7 +61,6 @@ var menuCtrl = function () {
   var $menuCtrl = $('.js-menuCtrl');
   if (wWidth < 769) {
     $menuCtrl.click(function () {
-      console.log(1);
       $(this).find('.js-subMenu').slideToggle();
       $(this).find('.js-subMenuIcon').toggleClass('active');
     });
